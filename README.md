@@ -2,6 +2,6 @@
 Django web app for vision algorithm demo. <br>
 It includes the provided project and unit test module
 
-# visiondemo_editted 
+# visiondemo_edited 
 Django web app for vision algorithm demo. <br>
 It includes the project that is editted to get the result show in demo.png
