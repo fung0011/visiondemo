@@ -8,8 +8,8 @@ Django version: 1.8.3
 
 **Usage:**
 
-`git clone https://github.com/charlesq34/visiondemo.git` <br/>
-`cd visiondemo` <br/>
+`git clone https://github.com/fung0011/visiondemo.git` <br/>
+`cd visiondemo_edited` <br/>
 
 *[Optional]* <br/>
 `virtualenv -p <python3_path> venv` <br/>
