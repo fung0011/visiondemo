@@ -8,7 +8,7 @@ Django version: 1.8.3
 
 **Usage:**
 
-`git clone https://github.com/charlesq34/visiondemo.git` <br/>
+`git clone https://github.com/fung0011/visiondemo.git` <br/>
 `cd visiondemo` <br/>
 
 *[Optional]* <br/>
@@ -21,9 +21,3 @@ Django version: 1.8.3
 `python visiondemo/external_app.py` <br/>
 
 Go to http://127.0.0.1:8080/visiondemo
-
-
-**Demo outlook:**
-
-![demo outlook]
-(https://raw.githubusercontent.com/charlesq34/visiondemo/master/demo.png)
