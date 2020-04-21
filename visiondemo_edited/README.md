@@ -23,7 +23,3 @@ Django version: 1.8.3
 Go to http://127.0.0.1:8080/visiondemo
 
 
-**Demo outlook:**
-
-![demo outlook]
-(https://raw.githubusercontent.com/charlesq34/visiondemo/master/demo.png)
