@@ -1,0 +1,22 @@
+from django.conf.urls import url
+from . import views
+from django.conf import settings
+from django.conf.urls.static import static 
+
+
+import os
+MEDIA_ROOT = os.path.join(os.path.dirname(__file__), 'media')
+
+urlpatterns = [
+    # ex: /visiondemo
+    url(r'^$', views.index, name='index'),
+    # ex: /visiondemo/fileupload
+    url(r'^fileupload/$', views.fileupload, name='fileupload'),
+    # ex: /visiondemo/result
+    url(r'^result/$', views.result, name='result'),
+    url(r'^media/(?P<path>.*)$', 'django.views.static.serve',
+        {'document_root': MEDIA_ROOT}),
+]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
